@@ -1,0 +1,11 @@
+[[ $- != *i* ]] && return
+
+shopt -s checkwinsize
+shopt -s dotglob
+shopt -s histappend
+
+PS1='\[\e[96m\]\u\[\e[m\]@\[\e[94m\]\H\[\e[m\] \[\e[92m\]\w\[\e[m\] \$ '
+
+alias ls='ls -alh --color=always'
+alias grep='grep --color=always'
+alias rm='rm -I'

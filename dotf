@@ -1,0 +1,21 @@
+#!/bin/sh
+
+copy() {
+	printf "Copying $1 to $2\n"
+
+	cp -frT "$1" "$2"
+}
+
+if [ ! $1 ]
+then
+	printf 'Preset not specified\n'
+
+	exit 1
+elif [ ! -r "presets/$1.sh" ]
+then
+	printf 'Preset not found\n'
+
+	exit 1
+fi
+
+. "presets/$1.sh"
