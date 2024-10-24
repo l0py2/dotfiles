@@ -1,12 +1,12 @@
 #!/bin/sh
 
 copy() {
-	printf "Copying $1 to $2\n"
+	printf "Copying %s to %s\n" "$1" "$2"
 
 	cp -frT "$1" "$2"
 }
 
-if [ ! $1 ]
+if [ ! "$1" ]
 then
 	printf 'Preset not specified\n'
 
@@ -17,5 +17,9 @@ then
 
 	exit 1
 fi
+
+XDG_CONFIG_HOME="${XDG_CONFIG_HOME:=$HOME/.config}"
+
+mkdir -p "$HOME/.config"
 
 . "presets/$1.sh"

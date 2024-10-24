@@ -2,7 +2,6 @@
 
 copy common/home "$HOME"
 
-mkdir -p "$HOME/.config"
-copy common/bash "$HOME/.config/bash"
-copy common/git "$HOME/.config/git"
-copy common/shell "$HOME/.config/shell"
+copy common/bash "$XDG_CONFIG_HOME/bash"
+copy common/git "$XDG_CONFIG_HOME/git"
+copy common/shell "$XDG_CONFIG_HOME/shell"
