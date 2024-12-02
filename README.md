@@ -1,1 +1,6 @@
 # Dotfiles
+
+## Presets
+
+- base
+- hyprland
