@@ -1,6 +1,6 @@
 local o = vim.o
 
-o.expandtab = true
+o.expandtab = false
 o.softtabstop = 0
 o.shiftwidth = 6
 o.tabstop = 6
@@ -12,3 +12,4 @@ o.relativenumber = true
 
 o.cursorline = true
 o.cursorcolumn = true
+o.colorcolumn = '80'
