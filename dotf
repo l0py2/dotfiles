@@ -22,4 +22,7 @@ XDG_CONFIG_HOME="${XDG_CONFIG_HOME:=$HOME/.config}"
 
 mkdir -p "$HOME/.config"
 
-. "presets/$1.sh"
+for preset in "$@"
+do
+	. "presets/$preset.sh"
+done
