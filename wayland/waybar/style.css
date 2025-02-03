@@ -4,13 +4,12 @@
 	font-size: 12px;
 }
 
-window#waybar, menu {
-	border-radius: 2px;
+window#waybar, menu, tooltip {
+	border-radius: 4px;
 	background-color: #8baeeb;
 }
 
 window#waybar {
-	border: 2px solid #8baeeb;
 	padding: 8px 0;
 }
 

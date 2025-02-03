@@ -1,5 +1,5 @@
 {
-	"margin": "8 8 0 8",
+	"margin": "8 4 0 4",
 	"modules-left": [
 		"hyprland/workspaces",
 		"mpd"
@@ -12,5 +12,29 @@
 		"pulseaudio",
 		"backlight",
 		"battery"
-	]
+	],
+	"clock": {
+		"tooltip-format": "{calendar}",
+		"actions": {
+			"on-click-right": "mode",
+			"on-scroll-up": "shift_down",
+			"on-scroll-down": "shift_up",
+			"on-click-middle": "shift_reset"
+		},
+		"calendar": {
+			"mode-mon-col": 4,
+			"format": {
+				"today": "<span color='#c64e44'>{}</span>"
+			}
+		}
+	},
+	"pulseaudio": {
+		"format": "sound: {volume}"
+	},
+	"backlight": {
+		"format": "light: {percent}"
+	},
+	"battery": {
+		"format": "battery: {capacity}"
+	}
 }
