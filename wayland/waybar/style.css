@@ -1,0 +1,41 @@
+* {
+	all: unset;
+	font-family: monospace;
+	font-size: 12px;
+}
+
+window#waybar, menu {
+	border-radius: 2px;
+	background-color: #8baeeb;
+}
+
+window#waybar {
+	border: 2px solid #8baeeb;
+	padding: 8px 0;
+}
+
+.module {
+	padding: 8px;
+}
+
+menu {
+	border: 2px solid #0444a5;
+	padding: 8px;
+}
+
+button {
+	padding: 0 8px;
+}
+
+button:hover {
+	color: #0444a5;
+}
+
+
+#workspaces button.active {
+	color: #909467;
+}
+
+#workspaces button.urgent {
+	color: #c64e44;
+}

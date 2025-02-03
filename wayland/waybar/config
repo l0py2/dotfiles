@@ -1,4 +1,5 @@
 {
+	"margin": "8 8 0 8",
 	"modules-left": [
 		"hyprland/workspaces",
 		"mpd"
