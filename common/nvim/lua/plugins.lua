@@ -18,5 +18,6 @@ end
 vim.opt.rtp:prepend(lazy_path)
 
 require('lazy').setup({
-	{ import = 'plugins/treesitter' }
+	{ import = 'plugins/treesitter' },
+	{ import = 'plugins/guess-indent' }
 })
