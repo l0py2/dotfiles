@@ -20,5 +20,6 @@ vim.opt.rtp:prepend(lazy_path)
 require('lazy').setup({
 	{ import = 'plugins/treesitter' },
 	{ import = 'plugins/guess-indent' },
-	{ import = 'plugins/vimwiki' }
+	{ import = 'plugins/vimwiki' },
+	{ import = 'plugins/lsp' }
 })
