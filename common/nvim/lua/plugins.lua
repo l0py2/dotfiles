@@ -21,5 +21,6 @@ require('lazy').setup({
 	{ import = 'plugins/treesitter' },
 	{ import = 'plugins/guess-indent' },
 	{ import = 'plugins/vimwiki' },
-	{ import = 'plugins/lsp' }
+	{ import = 'plugins/lsp' },
+	{ import = 'plugins/theme' }
 })
