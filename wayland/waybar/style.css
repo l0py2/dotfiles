@@ -6,7 +6,15 @@
 
 window#waybar, menu, tooltip {
 	border-radius: 4px;
-	background-color: #8baeeb;
+}
+
+window#waybar {
+	background-color: #1e1e2e;
+	color: #cdd6f4;
+}
+
+menu, tooltip {
+	background-color: #313244;
 }
 
 window#waybar {
@@ -18,7 +26,7 @@ window#waybar {
 }
 
 menu {
-	border: 2px solid #0444a5;
+	border: 2px solid #9399b2;
 	padding: 8px;
 }
 
@@ -27,14 +35,14 @@ button {
 }
 
 button:hover {
-	color: #0444a5;
+	color: #9399b2;
 }
 
 
 #workspaces button.active {
-	color: #909467;
+	color: #7f849c;
 }
 
 #workspaces button.urgent {
-	color: #c64e44;
+	color: #f9e2af;
 }
