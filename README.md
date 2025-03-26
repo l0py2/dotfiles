@@ -9,3 +9,4 @@
 
 - [Catppuccin style guide](https://github.com/catppuccin/catppuccin/blob/main/docs/style-guide.md)
 - [Catppuccin foot theme](https://github.com/catppuccin/foot)
+- [Catppuccin dunst theme](https://github.com/catppuccin/dunst)

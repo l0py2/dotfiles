@@ -26,7 +26,7 @@ window#waybar {
 }
 
 menu {
-	border: 2px solid #9399b2;
+	border: 2px solid #7f849c;
 	padding: 8px;
 }
 
@@ -35,7 +35,7 @@ button {
 }
 
 button:hover {
-	color: #9399b2;
+	color: #7f849c;
 }
 
 

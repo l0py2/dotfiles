@@ -1,0 +1,12 @@
+[global]
+notification_limit=6
+separator_color=frame
+corner_radius=4
+
+background="#1e1e2e"
+foreground="#cdd6f4"
+highlight="#89b4fa"
+frame_color="#89b4fa"
+
+[urgency_critical]
+frame_color="#f9e2af"
