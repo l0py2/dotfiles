@@ -1,5 +1,7 @@
 [[ $- != *i* ]] && return
 
+alias dotfiles='/usr/bin/git --git-dir="$HOME/.dotfiles/" --work-tree="$HOME"'
+
 shopt -s checkwinsize
 shopt -s dotglob
 shopt -s histappend
