@@ -14,7 +14,8 @@
 		"battery"
 	],
 	"ext/workspaces": {
-		"ignore-hidden": false
+		"ignore-hidden": false,
+		"on-click": "activate"
 	},
 	"clock": {
 		"tooltip-format": "{calendar}",
