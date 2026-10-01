@@ -1,18 +1,21 @@
 {
-	"margin": "8 4 0 4",
+	"margin": "0",
 	"modules-left": [
-		"hyprland/workspaces",
-		"mpd"
+		"ext/workspaces"
 	],
 	"modules-center": [
 		"clock"
 	],
 	"modules-right": [
 		"tray",
+		"mpd",
 		"pulseaudio",
 		"backlight",
 		"battery"
 	],
+	"ext/workspaces": {
+		"ignore-hidden": false
+	},
 	"clock": {
 		"tooltip-format": "{calendar}",
 		"actions": {
